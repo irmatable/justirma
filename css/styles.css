@@ -38,11 +38,12 @@ body {
 
 .about h4 {
   color: #fff;
-  width: 13%;
-  padding: 2px;
+  width: 19%;
+  padding: 2;
   font-size: 20px;
   background-color: #2645ff;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 /* .about h3 {
@@ -83,6 +84,12 @@ body {
     transition: all .3s;
 }
 
+@media (max-width: 768px) {
+  .contact  {
+    text-align:center;
+}
+}
+
 /* --- Large Pic --- */
 .lgpic img{
   position: relative;
@@ -90,6 +97,11 @@ body {
   width: 90%;
 }
 
+@media (max-width: 768px) {
+  img  {
+    display:none;
+}
+}
 
 /* --- Footer --- */
 .footer {
