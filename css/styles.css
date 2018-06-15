@@ -19,6 +19,10 @@ a:hover {
   color: #71869c;
 }
 
+.navbar-brand {
+  padding: 23px 15px; 
+}
+
 /* --- About --- */
 
 .about {
@@ -52,11 +56,30 @@ font-family: 'Open Sans', sans-serif;
 letter-spacing: 2px;
 }
 
+/* Case Study 1 */
+.case-study {
+  background: rgb(251,252,253);
+}
+
+.case-study h1 {
+  font-size: 65px;
+}
+
+.project-name {
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  margin-top: 5%;
+}
+
 /* Quick Links*/
 
 .my-links {
   list-style-type: none;
   margin-top: 7%;
+  padding-left: 0%;
 }
 
 .my-links li {
@@ -66,7 +89,7 @@ letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
 }
-
+/*
 .work a .work-change:before{
   position: relative;
   content: 'WORK'
@@ -78,7 +101,15 @@ letter-spacing: 2px;
 
 .work:hover a .work-change:after{
   content: 'COMING SOON';
+}*/
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  list-style: none;
 }
+
 /* --- Large Pic --- */
 
 .lgpic img{
@@ -94,31 +125,29 @@ letter-spacing: 2px;
 }
 }
 
-/* --- Footer --- */
-.footer {
-text-align: left;
-margin-top: 2%;
-}
+/* --- Social Icons --- */
+.social-icons {
+  text-align: right;
+  margin-top: 2%;
+  list-style: none;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    padding-right: .5%;
+    font-size: 15px;
+  
+  }
+  
+  .social-icons .fab , .far {
+    color:#2c3d55;
+  }
+  
+  a:hover .social-icons{ 
+    color: #71869c;  
+  }
 
-.footer a {
-  text-decoration: none;
-}
-
-.footer ul {
-  list-style-type: none;
-}
-
-.footer ul li {
-  display: inline;
-  padding-right: .5%;
-  font-size: 15px;
-
-}
-
-.footer ul .fab , .far {
-  color:#2c3d55;
-}
-
-a:hover .footer{ 
-  color: #71869c;  
-}
