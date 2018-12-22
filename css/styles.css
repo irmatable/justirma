@@ -90,16 +90,16 @@ letter-spacing: 2px;
   font-weight: bolder;
 }
 /*
-.work a .work-change:before{
+.projects a .projects-change:before{
   position: relative;
-  content: 'WORK'
+  content: 'PROJECTS'
 }
 
-.work:hover a .work-change:before{
+.projects:hover a .projects-change:before{
   display: none;
 }
 
-.work:hover a .work-change:after{
+.projects:hover a .projects-change:after{
   content: 'COMING SOON';
 }*/
 
